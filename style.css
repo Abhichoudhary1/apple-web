@@ -1,0 +1,718 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(22, 22, 23, .8);
+}
+
+.nav-sec {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-sec ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+}
+
+.nav-sec ul li img {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+}
+
+.bank {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bank a {
+    color: #06c;
+}
+
+
+.mac {
+    height: 550px;
+    width: 100%;
+}
+
+.ipad {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ipad h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.ipad p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.ipad a {
+    margin-top: 20px;
+    color: #06c;
+}
+
+.ipad img {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.pro {
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.beyound {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.beyound h1 {
+    font-weight: bolder;
+    font-size: 70px;
+    color: white;
+}
+
+.beyound h4 {
+    color: white;
+    font-size: 30px;
+
+}
+
+.beyound span a {
+    color: rgb(29, 111, 194);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.wonder {
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/hero_iphone14_yellow__eun20sn4imi6_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.phone {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.phone h1 {
+    font-weight: bold;
+    font-size: 70px;
+    color: black;
+}
+
+.phone h4 {
+    color: black;
+    font-size: 30px;
+}
+
+.phone span a {
+    color: rgb(29, 111, 194);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main-store {
+    height: 1650px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 30px;
+    padding: 50px;
+}
+
+.box {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.exp {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.exp h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.exp p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.exp span a {
+    color: rgb(29, 111, 194);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.exp span {
+    margin-top: 10px;
+}
+
+.mac {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mac h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mac p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mac span a {
+    color: rgb(29, 111, 194);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.mac span {
+    margin-top: 10px;
+}
+
+.mac img {
+    height: 350px;
+}
+
+.watch {
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    background-image: url("./images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.watch span {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch span img {
+    width: 50px;
+    padding: 15px;
+}
+
+.watch p {
+    font-size: 20px;
+    color: red;
+}
+
+.watch h5 {
+    font-size: 30px;
+    color: white;
+}
+
+.watch span a {
+    color: rgb(29, 111, 194);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.watch span {
+    margin-top: 10px;
+}
+
+.advance {
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    background-image: url("./images/promo_ipadpro_refresh__evi9utuixwuq_large.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advance h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.advance p {
+    color: white;
+}
+
+.advance span a {
+    color: rgb(29, 111, 194);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.advance span {
+    margin-top: 10px;
+}
+
+.air {
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    background-image: url("./images/promo_airpods_pro_avail__gaxggskofx6y_large.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.air h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.air p {
+    color: white;
+}
+
+.air span a {
+    color: rgb(29, 111, 194);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+air span {
+    margin-top: 10px;
+}
+
+.trade {
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    background-image: url("./images/iphone_tradein_promo__d5au3rkw5kuq_large.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trade h1 {
+
+    margin-top: 20px;
+}
+
+.trade p {
+    margin-top: 10px;
+}
+
+.trade a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.trade img {
+
+    width: 40px;
+
+}
+
+.trade span {
+
+    display: flex;
+}
+
+.app-tv {
+    height: 600px;
+    width: 100%;
+    padding-inline: 100px;
+
+}
+
+.silo {
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/appletv.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 400px;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+
+.fut {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.savings {
+    color: #6e6e73;
+    padding: 120px;
+
+}
+
+.savings p {
+    margin-top: 30px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.footer {
+    height: 600px;
+    width: 100%;
+
+}
+
+.shop {
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shop ul li {
+    list-style-type: none;
+    color: #6e6e73;
+    margin-top: 10px;
+}
+
+.ways {
+    margin-top: 20px;
+    padding-left: 130px;
+}
+
+.ways a {
+    color: #06c;
+}
+
+.bro {
+    padding-inline: 120px;
+    margin-top: 20px;
+}
+
+.copy {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right {
+    color: #6e6e73;
+}
+
+.privacy ul {
+    width: 150%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.privacy ul li {
+    list-style-type: none;
+    color: #6e6e73;
+}
+
+.ind {
+    color: #6e6e73;
+}
+
+/* media-query */
+@media (max-width:768px) {
+    .nav-bar {
+        height: auto;
+        width: 100%;
+    }
+
+    .nav-sec {
+        height: auto;
+        width: 100%;
+    }
+
+    #ab {
+        display: none;
+    }
+
+    #bc {
+        display: none;
+    }
+
+    #ca {
+        display: none;
+    }
+
+    #db {
+        display: none;
+    }
+
+    #mb {
+        display: none;
+    }
+
+    #mq {
+        display: none;
+    }
+
+    #mo {
+        display: none;
+    }
+
+    #op {
+        display: none;
+    }
+
+    #sr {
+        display: none;
+    }
+     .pro{
+        height: auto;
+        width: 100%;
+     }
+     .wonder{
+        height: 300px;
+        width: 100%;
+  
+     }
+    .bank {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .mac {
+        height: auto;
+        width: 100%;
+    }
+
+    .ipad {
+        height: auto;
+        width: 100%;
+    }
+
+    .mac {
+        height: auto;
+        width: 100%;
+    }
+    .phone{
+        height: auto;
+        width: 100%;
+        
+    }
+    .phone h1{
+        font-size: 25px;
+    }
+    .phone h4{
+        font-size: 25px;
+    }
+    .ipad {
+        height: auto;
+        width: 50%;
+    }
+
+    .pro h1 {
+        font-size: 30px;
+    }
+
+    .pro h4 {
+        font-size: 20px;
+    }
+
+    .main-store {
+       height: auto;
+       width: 100%;
+       display: grid;
+       grid-template-columns: 350px;
+       grid-template-rows: 450px auto auto auto auto auto;
+    }
+
+    .box {
+        height: auto;
+        width: 85%;
+
+    }
+    .exp{
+        height: auto;
+        width: 100%;
+        
+    }
+    .exp img{
+        height: 150px;
+        width: 150px;
+    }
+    .app-tv {
+        height: auto;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+    }
+
+    .silo {
+        height: 300px;
+        width: 100%;
+        background-image: url("./images/appletv.jpg.jpg");
+        background-position: center;
+        background-size: cover;
+        border: none;
+
+    }
+
+    .fut {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .savings {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .savings p {
+        height: auto;
+        width: 200%;
+        font-size: 15px;
+
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+    }
+
+    .shop {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .shop ul {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .ways p {
+        height: auto;
+        width: 80%;
+    }
+
+    .copy {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .right {
+        height: auto;
+        width: 100%;
+    }
+
+    .privacy {
+        height: auto;
+        width: 100%;
+    }
+
+    .ind {
+        display: flex;
+        flex-direction: column;
+    }
+}
